@@ -18,6 +18,13 @@ Please download our pre-training model at ''. Our pre-trained model is a (5 skip
 # Get the layout of shear wall
 This is an introduction on how to obtain the layout of shear wall using AutoStruct.
 
+## Get the layout of shear wall automatically
+After deploying and starting the local service of ​​AutoStructPro​​, open a browser and navigate to the URL: http://localhost:8080/Sketching%20Tools.html.
+In the interface, select the ​​AutoStructPro model​​, draw your sketch, and then click the ​​Generate​​ button to directly obtain the shear wall layout.
+(Currently, we do not have sufficient funding to support a cloud server, so the service is running locally.)
+
+## Get the layout of shear wall manually
+If you are unable to deploy the ​​AutoStructPro​​ local service, you can also manually generate the ​​shear wall layout​​ using the following method.
 ### Step 1: Sketch the building layout
 Open `Sketching Tools.html` in your browser and use the Sketching Tools to draw a sketch of the building layout. Click the "Instructions" button of the Sketching Tools to get detailed instructions on how to use the tool. After you've finished the sketch, click "Save Image" and save your sketch in the following path:
 `/AutoStruct_V1/Model/datasets/struct_design/test_A`
